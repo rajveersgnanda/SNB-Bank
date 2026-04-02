@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "rg1" {
   name     = "rg-shubham"
   location = "Central India"
 }
+
+resource "azurerm_resource_group" "rg2" {
+  name     = "rg-ganu"
+  location = "Central India"
+}
